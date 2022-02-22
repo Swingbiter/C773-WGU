@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule an appointment!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <img src="images/ppp.png" class="rounded gray-text" alt="Paradigm Pet Professionals">
+    <nav class="navbar navbar-expand-sm midnight-bg">
+        <div class="container-fluid">
+          <!-- Links -->
+          <a class="navbar-brand gray-text px-1" href="index.html">Paradigm Pet Professionals</a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link gray-text" href="dogs.html">Dogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link gray-text" href="cats.html">Cats</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link gray-text" href="birds.html">Birds</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link gray-text sky-bg" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div class="container p-5">
+        <form action="">
+            <h3>Your Information</h3>
+            <div class="mb-3">
+                <label for="name" class="form-label">Full Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter full name">
+            </div>
+
+            <div class="mb-3">
+              <label for="num" class="form-label">Phone:</label>
+              <input type="text" class="form-control" id="num" placeholder="Enter phone number">
+            </div>
+
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+
+            <div class="mb-3">
+                <label for="zone" class="form-label">Local Time Zone:</label>
+                <input type="text" class="form-control" id="zone" placeholder="Enter time zone">
+            </div>
+            
+            <div class="mb-3">
+                <label for="day" class="form-label">Preferred Meeting Day:</label>
+                <input type="text" class="form-control" id="day" placeholder="Enter preferred day">
+            </div>
+            <h3>Pet's Information</h3>
+            <div class="mb-3">
+                <label for="type" class="form-label">Type of Pet:</label>
+                <input type="text" class="form-control" id="type" placeholder="Enter pet type">
+            </div>
+
+            <div class="mb-3">
+              <label for="pname" class="form-label">Pet's Name:</label>
+              <input type="text" class="form-control" id="pname" placeholder="Enter pet's name">
+            </div>
+
+            <div class="mb-3">
+                <label for="p-age" class="form-label">Pet's Age:</label>
+                <input type="text" class="form-control" id="p-age" placeholder="Enter pet's age">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
